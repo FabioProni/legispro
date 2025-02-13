@@ -1,2 +1,5 @@
 streamlit
 openai
+pymupdf
+pandas
+openpyxl
