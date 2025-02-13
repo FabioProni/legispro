@@ -15,7 +15,7 @@ if not st.session_state.authenticated:
     password = st.text_input("Inserisci la password per accedere:", type="password")
     
     if st.button("Accedi"):
-        if password == st.secrets["password"]["password"]:
+        if password == st.secrets["pw"]:
             st.session_state.authenticated = True
             st.rerun()
         else:
